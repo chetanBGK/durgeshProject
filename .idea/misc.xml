@@ -8,8 +8,22 @@
         <option value="$PROJECT_DIR$/ratingms/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/pom.xml" />
         <option value="$PROJECT_DIR$/serviceRegestry/pom.xml" />
+<<<<<<< HEAD
       </list>
     </option>
+=======
+        <option value="$PROJECT_DIR$/gateway/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../gateways/gateways/pom.xml" />
+        <option value="$PROJECT_DIR$/gateways/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../gateways/gateways/pom.xml" />
+      </set>
+    </option>
+>>>>>>> 07e3a19 (gate ways added)
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">

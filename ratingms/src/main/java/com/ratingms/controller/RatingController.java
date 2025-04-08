@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+<<<<<<< HEAD
+=======
+//@RequestMapping("/rating")
+>>>>>>> 07e3a19 (gate ways added)
 public class RatingController {
 
     private final RatingService ratingService;

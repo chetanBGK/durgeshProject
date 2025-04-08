@@ -8,6 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="serviceRegestry" />
+<<<<<<< HEAD
+=======
+        <module name="gateway" />
+>>>>>>> 07e3a19 (gate ways added)
       </profile>
       <profile name="Annotation profile for userservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -21,9 +25,20 @@
         <module name="userservice" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+=======
+    <bytecodeTargetLevel>
+      <module name="gateways" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
+      <module name="gateways" options="" />
+>>>>>>> 07e3a19 (gate ways added)
       <module name="hotelms" options="-parameters" />
       <module name="ratingms" options="-parameters" />
       <module name="serviceRegestry" options="-parameters" />
